@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistworks Registration 2</title>
+
+   <link href="css/reset.css" rel="stylesheet">
+   <link href="css/assign1.css" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+    <div id="topHeaderRow" >
+        <nav >
+            <ul >
+                <li><a href="pageLogin.html"> Login</a></li>
+                <li><a href="#"> Wish List</a></li>
+                <li><a href="#"> Shopping Cart</a></li>
+                <li><a href="#"> Checkout</a></li>                  
+            </ul>
+        </nav>
+   </div>   <!-- end topHeaderRow -->
+   
+   <div id="logoRow" >
+        <h1>Art Store</h1> 
+   </div>  <!-- end logoRow -->
+   
+   <div id="mainNavigationRow" >
+         <nav >
+             <ul >
+               <li ><a href="pageOne.html">Home</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="pageArtWorks.html">Art Works</a></li>
+               <li><a href="pageTwo.html#">Artists</a></li>
+             </ul>              
+
+         </nav>
+   </div>  <!-- end mainNavigationRow -->
+   
+</header>
+
+<main>
+   <h2>Artist Works Registration</h2>
+   <form method="post" action="validateform.php">
+   
+      
+      <h3>1 . Art Works</h3>
+      <table class="userform">
+         <tr>
+          <td><label>Paintings Name</label><br><input type="text" name="paintings" size="20"></td>
+           
+            <td><label>Title</label><br><input type="text" name="title" ></td>
+            <td><label>Description</label><br><input type="text" name=description"></td>
+         </tr>
+         
+
+         <tr>
+            <td colspan="3">
+               <label>Link</label><input type="url" name="link"  >Love it!
+            </td>
+            <td colspan="3">
+               <label>Link</label><input type="url" name="googlelink"  >Love Google!
+            </td>
+         </tr>
+      </table>
+      <h3>5. All Done</h3>
+      <table class="userform">
+         <tr>
+            <td colspan="3">
+               <input type="checkbox" name="accept">
+               <label>I agree to the <a href="#">Terms of the Site</a></label>               
+            </td>
+         </tr>
+         <tr>
+            <td colspan="3">
+               <button type="submit" class="fancyBtn">
+                  <img src="images/button_ok.png"> Sign me up!
+               </button>
+            </td>
+         </tr>       
+      </table>      
+   </form>
+</main>
+<footer>
+       <p>All images are copyright to their owners. This is just a hypothetical site
+       <span >&copy; 2019 Copyright Art Store</span></p>
+</footer>
+
+
+  </body>
+</html>

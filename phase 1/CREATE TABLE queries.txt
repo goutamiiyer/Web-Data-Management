@@ -1,0 +1,45 @@
+use leaneventos;
+create table contact (
+    ContactID int(10),
+    FirstName varchar(255),
+    LastName varchar(255),
+    Email varchar(255),
+    Topic varchar(255),
+    Message varchar(500)
+    );
+
+use leaneventos;
+create table events (
+    EventID int(10),
+    UserID int(10),
+    DetailsOfEvents varchar(255),
+    Place varchar(255),
+    DateofEvent varchar(10),
+    Hour time(6),
+    FirstName varchar(255),
+    Responsible varchar(255),
+    TicketValue decimal(13,2)
+    );
+
+use leaneventos;
+create table user (
+    UserID int(10),
+    EventID int(10),
+    Role varchar(255),
+    EmailOfUser varchar(255),
+    PasswordOFUser varchar(255),
+    FirstNameOfUser varchar(255),
+    LastNameOfUser varchar(255),
+    Address varchar(255),
+    City varchar(255),
+    State varchar(255),
+    PostalCode varchar(255),
+    Telephone varchar(255),
+    UserName varchar(255),
+    FullName varchar(255),
+    NameOfFoundation varchar(255),
+    TypeOfBusiness1 varchar(255),
+    TypeOfBusiness2 varchar(255),
+    TypeOfBusiness3 varchar(255),
+    AgentRegistrationNumber integer(200)
+    );

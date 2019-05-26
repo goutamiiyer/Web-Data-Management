@@ -1,0 +1,174 @@
+body {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   line-height: 1.428571429;
+   color: #333333;
+   background-image: url(images/stucco/stucco.png);
+   background-repeat: repeat;
+}
+
+/* header */
+
+header {
+     width: 900px ;
+     margin-left: auto ;
+     margin-right: auto ;
+}
+
+div#topHeaderRow {
+   background-color: #222222;
+   font-size: 0.9em;
+   height: 3em;
+   line-height: 3em;
+   text-align: right;
+   padding-right: 1em;
+}
+
+nav  ul{
+   list-style-type: none;
+}
+nav  ul li {
+   display: inline;
+}   
+nav  ul li  a{
+   text-decoration: none;
+}  
+
+div#topHeaderRow  a {
+   color: #999999;
+   margin-right: 2em;
+}
+
+h1 { 
+   font-size: 4em;
+   font-weight: bold;
+}
+
+div#mainNavigationRow {
+   background-color: #f8f8f8;
+   height: 3em;
+   line-height: 3em;   
+   border: solid 1pt #e7e7e7;
+}   
+div#mainNavigationRow  a {
+   color: #777777;
+   margin-right: 2em;
+   margin-left: 1em;
+   font-weight: bold;
+}   
+
+/* main document */
+
+main {
+   width: 880px;
+   margin-left: auto ;
+   margin-right: auto ;
+   background-color: #ffffff;
+   margin-top: 1em;
+   padding: 10px;
+   border: solid 1pt #e7e7e7;
+}
+
+h2 { 
+   font-size: 1.75em;
+}
+h3 { 
+   font-size: 1.25em;
+   border-bottom: solid 1pt #e7e7e7;
+   margin-top: 1em;
+   margin-bottom: 0.75em;
+}
+
+main figure {
+   width: 300px;
+   float: left;
+   margin-top: 1em;
+}
+main #info {
+   margin-left: 310px;
+      margin-top: 1em;
+}
+main .price {
+   font-weight: bold;
+   color: red;
+   margin-top: 1em;
+   font-size: 1.1em;
+}
+main #buttons {
+    border: solid 1pt #e7e7e7;
+   margin-top: 1em;
+   padding: 10px;    
+}
+main #buttons button {
+   width: 250px;
+   height: 3em;
+   line-height: 3em;
+   margin-left: 1em ;
+}
+main #buttons button a {
+   text-decoration: none;
+   font-size: 1.2em;
+   font-weight: bold;
+}   
+
+main table  th {
+   font-weight: bold;
+   font-size: 1em;
+   text-align: left;
+}
+
+
+main #similar {
+   clear: left;
+   margin-top: 2em;
+   height: 250px;
+}
+
+main #similar .box {
+   width: 180px;
+   border: solid 1pt #e7e7e7;
+   padding: 0.5em;
+   margin-right: 1em;
+   float: left;
+
+}
+
+.centeredInside {
+   display: block;
+   margin-left: auto ;
+   margin-right: auto ;
+}
+
+table.userform {
+   width: 60%;
+}
+label {
+   font-weight: bold;
+}
+input[type='range'] {
+   width: 60%;
+}
+.fancyBtn {
+   background-color:#bddbfa;
+}
+
+
+/* footer */
+
+footer {
+   clear: left; 
+   width: 900px;
+   margin-left: auto ;
+   margin-right: auto ;
+   margin-top: 1em;
+   border: solid 1pt #e7e7e7;   
+   background-color: #222222;
+   font-size: 0.9em;
+   height: 3em;
+   line-height: 3em;
+   text-align: center;
+   color: #999999;   
+}
+footer #copyrightRow {
+
+}

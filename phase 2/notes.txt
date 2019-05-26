@@ -1,0 +1,26 @@
+
+
+
+			<a class="navlink" href="#"> Inicio </a>
+			<a class="navlink" href="QuienesSomos.html" target="_blank"> Quienes Somos </a>
+			<a class="navlink" href="Blog.html" target="_blank"> Blog </a>
+			<a class="navlink" href="Registrate.html" target="_blank"> Registrate </a>
+			<a class="navlink" href="Contacto.html" target="_blank"> Contacto </a>
+			<a class="navlink" href="IniciarSesion.html" target="_blank"> Iniciar Sesion </a>
+			<a class="navlink" href="ComprarBoletos.html" target="_blank"> Comprar Boletos </a>
+==============================
+	box-sizing: border-box;
+	margin-left: 100px;
+	border: 20px;
+	padding: 20px;
+	width: 1100px;
+==============================
+<img src="imagenes/imagenes/bannerlean2.jpg" title="bannerlean2.jpg">
+¿QUÉ HACEMOS?
+La asociación civil LEAN fue creada con el objetivo de ayudar, a través de acciones concretas, a nuestros conciudadanos en Venezuela ante la grave escasez de medicinas e insumos médicos en que se encuentra el país. Nuestra misión consiste en recolectar ayuda médico sanitaria en delegaciones en España y, a través de agentes de transporte, llevarlos a Venezuela para que otras asociaciones se encarguen de su distribución. De esta manera aportamos nuestro granito de arena ayudando a llevar asistencia humanitaria a Venezuela. Somos una asociación sin fines de lucro, dedicada a la defensa de los Derechos Humanos.
+
+
+.footer
+{
+	font-family: 'Roboto', Arial, sans-serif;
+}

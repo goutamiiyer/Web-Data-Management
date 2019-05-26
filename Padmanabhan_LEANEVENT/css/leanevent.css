@@ -1,0 +1,942 @@
+#wrapper
+{
+	color: #595959;
+	font-family: 'Roboto', Arial, sans-serif;
+	background-color: #FFFFFF;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.header
+{
+	color: #595959;
+	line-height: 200%;
+	box-sizing: content-box;
+	padding-right: 30px;
+	background-color: #90C7E3;
+	height: 80px;
+}
+.menu
+{
+	padding: 20px;
+}
+.logo
+{
+	height: 35px;
+	width: 35px;
+	padding-left: 100px;
+}
+.logoblanco
+{
+	position: absolute;
+	left: 60px;
+}
+
+.name
+{
+	font-size: 16px;
+	padding-left: 50px;
+}
+.navlink
+{
+	text-decoration: none;
+	color: #595959;
+	padding: 10px;	
+	text-align: center;
+	float: right;
+	font-size: 12px;
+}
+.currentPage
+{
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	float: right;
+	font-size: 12px;
+	color: #FFC300;
+}
+
+.navlink:hover
+{
+	text-decoration: none;
+	color: #FFC300;
+}
+.navlink:active
+{
+	color: #FFC300;
+}
+.imgslide2
+{
+	margin-top: 40px;
+}
+.bannerlean
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+.bannercboleto
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 200px;
+	position: relative;
+	opacity: 0.4;
+}
+.leanimg
+{
+	width: 200px;
+	position: absolute;
+	top: 200px;
+	left: 750px;
+}
+.quehacemos
+{
+	font-size: 16px;
+}
+.whatwedo
+{
+	box-sizing: content-box;
+	padding : 100px 200px 100px 200px;
+	text-align: center;
+	font-size: 11px;
+}
+.dash
+{
+	color: #FFC300;
+	font-weight: bold;
+}
+.tablerow
+{
+	box-sizing: content-box;
+	text-align: center;
+	background-color: #FFC300;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 1em 1em 1em 10em;
+}
+
+.column1
+{
+	padding-right: 90px;
+}
+.column2
+{
+	padding-left: 90px;
+	padding-right: 90px;
+}
+.row
+{
+	padding: 5px;
+}
+.bannerabout
+{
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 200px;
+	opacity: 0.3;
+	//clip: rect(100px 50px 0px 0px);
+}
+.fronttext
+{
+	box-sizing: content-box;
+	padding: 80px;
+}
+.quote
+{
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+.mlk
+{
+	float: right;
+	text-align: center;
+	font-size: 10px;
+	padding-right: 210px;
+}
+.aliados
+{
+	font-size: 16px;
+	text-align: center;
+	padding: 90px 50px 10px 50px;
+}
+.sponsor1
+{
+	width: 15%;
+	height: 70px;
+	padding: 0px 0px 0px 60px;
+}
+.sponsors
+{
+	box-sizing: content-box;
+	padding: 80px;
+	width: 80%;
+}
+.fa-caret-square-left
+{
+	color: lightgrey;
+}
+.fa-caret-square-right
+{
+	color: lightgrey;
+}
+.caret
+{
+	text-align: center;
+}
+.colorfooter
+{
+	box-sizing: content-box;
+	text-align: center;
+	padding: 50px;
+	background-color: #FFC300;
+	font-size: .70em;
+}
+.register
+{
+	box-sizing: content-box;
+	padding: 0px 20px 0px 20px;
+	text-align: center;
+	font-size: 14px;
+}
+.button1
+{
+	border-radius:0px 50px 50px 0px;
+	background-color: black;
+	color: #FFFFFF;
+	padding-left: 0px;
+	cursor: pointer;
+}
+.mail
+{
+	border-radius: 50px 0px 0px 50px;
+	padding-right: 0px;
+}
+.socialtext
+{
+	box-sizing: content-box;
+	text-align: center;
+	padding: 50px 50px 0px 50px;
+}
+.social
+{
+	box-sizing: content-box;
+	text-align: center;
+	padding: 20px;
+	color: #FFC300;
+}
+
+.copy
+{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.copyname
+{
+	color: #FFC300;
+}
+.uparrow
+{
+	float: right;
+	color: #FFC300;
+	font-size: 16px;
+}
+.main-footer
+{
+	font-size: 0.70em;
+}
+.bannerabouth
+{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 200px;
+	opacity: 0.4;
+}
+.columns
+{
+	box-sizing: content-box;
+	padding: 150px 0px 50px 0px;
+	font-size: 11px;
+	line-height: 20px;
+	column-count: 2;
+	column-gap: 50px;
+}
+.columnone
+{
+	padding: 20px;
+	text-align: justify;
+}
+.columntwo
+{
+	padding: 0px 20px 20px 20px;
+	column-count: 2;
+}
+
+.question
+{
+	font-weight: bold;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+.answer
+{
+	padding: 0px 0px 5px 0px;
+}
+.ans
+{
+	font-weight: bold;
+	font-size: 14px;
+	padding-bottom: 6px;
+}
+.bannercboleto
+{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.ctext
+{
+	box-sizing: content-box;
+	padding: 70px 70px 10px 70px;
+	text-align: center;
+	font-size: 20px;
+}
+.ctab
+{
+	box-sizing: content-box;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+.comprarinicio
+{
+	color: #FFC300;
+	padding-right: 5px;
+}
+.comprarinicio:link
+{
+	text-decoration: none;
+}
+.nuestros
+{
+	box-sizing: content-box;
+	text-align: center;
+	padding: 150px 150px 0px 150px;
+}
+.nuestrostext
+{
+	box-sizing: content-box;
+	text-align: center;
+	font-size: 12px;
+	padding: 30px 0px 70px 0px;
+}
+.cbannerlean
+{
+	height: 200px;
+	width: 200px;
+	padding: 0px 20px 0px 40px;
+	position: relative;
+}
+.bannerleanmix1
+{
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+.new1
+{
+	box-sizing: content-box;
+	padding: 2px;
+	background-color: #FFC300;
+	color: #FFFFFF;
+	font-size: 10px;
+	z-index: 9;
+	position: absolute;
+	left: 140px;
+}
+.new2
+{
+	box-sizing: content-box;
+	padding: 2px;
+	background-color: #FFC300;
+	color: #FFFFFF;
+	font-size: 10px;
+	z-index: 9;
+	position: absolute;
+	left: 385px;
+}
+.new3
+{
+	box-sizing: content-box;
+	padding: 2px;
+	background-color: #FFC300;
+	color: #FFFFFF;
+	font-size: 10px;
+	z-index: 9;
+	position: absolute;
+	left: 645px;
+}
+.new4
+{
+	box-sizing: content-box;
+	padding: 2px;
+	background-color: #FFC300;
+	color: #FFFFFF;
+	font-size: 10px;
+	z-index: 9;
+	position: absolute;
+	left: 910px;
+}
+.sale
+{
+	box-sizing: content-box;
+	padding: 2px;
+	background-color: red;
+	color: #FFFFFF;
+	font-size: 10px;
+	z-index: 9;
+	position: absolute;
+	left: 140px;
+	top: 350px;
+}
+.imgnames
+{
+	padding: 15px;
+	font-size: 11px;
+}
+.ticketcost
+{
+	box-sizing: content-box;
+	padding: 0px 0px 100px 0px;
+}
+.ticket1
+{
+	box-sizing: content-box;
+	padding: 15px 60px 0px 20px;
+}
+.ticket2
+{
+	box-sizing: content-box;
+	padding: 15px 60px 0px 35px;
+}
+.ticket3
+{
+	box-sizing: content-box;
+	padding: 15px 60px 0px 35px;
+}
+.ticket4
+{
+	box-sizing: content-box;
+	padding: 15px 60px 0px 40px;
+}
+.cost
+{
+	font-size: 11px;
+}
+.cost1
+{
+	box-sizing: content-box;
+	padding: 0px 50px 0px 80px;
+	color: #FFC300;
+}
+.cost2
+{
+	box-sizing: content-box;
+	padding: 0px 50px 0px 150px;
+	color: #FFC300;
+}
+.cost3
+{
+	box-sizing: content-box;
+	padding: 0px 50px 0px 180px;
+	color: #FFC300;
+}
+.cost4
+{
+	box-sizing: content-box;
+	padding: 0px 50px 0px 150px;
+	color: #FFC300;
+}
+.itemimg
+{
+	box-sizing: content-box;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.selectedimg
+{
+	height: 300px;
+	width: 300px;
+	position: relative;
+}
+.selectedtheory
+{
+	box-sizing: content-box;
+	position: absolute;
+	width: 45%;
+	top: 350px;
+	left: 450px;
+	font-size: 14px;
+}
+.comprarbutton
+{
+	box-sizing: content-box;
+	width: 130px;
+	padding: 5px;
+	background-color: #FFC300;
+}
+.comprar
+{
+	background-color: #FFC300;
+	color: #FFFFFF;
+}
+.noheading
+{
+	font-weight: bold;
+}
+.infohead
+{
+	font-weight: bold;
+	font-size: 18px;
+	box-sizing: content-box;
+	padding: 150px 0px 10px 50px;
+}
+.info
+{
+	font-size: 10px; 
+	padding: 20px 20px 20px 50px;
+}
+.tele
+{
+	padding-left: 100px;
+}
+.telephone
+{
+	text-decoration: none;
+	color: #595959;
+}
+.address
+{
+	font-size: 10px;
+}
+.sociales
+{
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+.fb
+{
+	width: 40px;
+	padding: 20px 0px 0px 150px;
+}
+.socialaddress
+{
+	box-sizing: content-box;
+	padding: 5px 0px 0px 50px;
+	font-size: 10px;
+	color: #FFC300;
+}
+.socialfb
+{
+	box-sizing: content-box;
+	padding: 0px 60px 0px 60px;
+}
+.socialtwitter
+{
+	box-sizing: content-box;
+	padding: 0px 60px 0px 40px;
+}
+.socialinsta
+{
+	box-sizing: content-box;
+	padding: 0px 60px 0px 40px;
+}
+.socialcorreo
+{
+	box-sizing: content-box;
+	padding-left: 20px;
+}
+.formbox
+{
+	box-sizing: border-box;
+	margin: 50px;
+	border: 20px;
+	padding: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #EDEDED;
+}
+.mensajebutton
+{
+	border-radius:60px 60px 60px 60px;
+	background-color: #FFC300;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.nombreapellido
+{
+	padding-top: 10px;
+}
+.cnombre
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.capellido
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px 0px 5px 415px;
+}
+.cnombretext
+{
+	width: 44%;
+	font-size: 12px;
+	padding: 7px;
+}
+.nombrebox
+{
+	padding-right: 30px;
+}
+.apelidobox
+{
+	padding-left: 30px;
+}
+.ccorreotext
+{
+	width: 97.5%;
+	font-size: 12px;
+	padding: 7px;
+}
+.correobox
+{
+	padding-bottom: 20px;
+}
+.cmessagetext
+{
+	width: 98.5%;
+	padding-bottom: 200px;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+.messagebutton
+{
+	box-sizing: content-box;
+	text-align: center;
+}
+.blankbox
+{
+	box-sizing: content-box;
+	padding: 70px;
+}
+.contra
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px 0px 5px 350px;
+}
+.forgot
+{	
+	font-size: 10px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.forgotlink
+{
+	color: #FFC300;
+}
+.forgotlink:link
+{
+	text-decoration: none;
+}
+.forgotpop
+{
+	box-sizing: content-box;
+	padding:100px 300px 100px 300px;
+}
+.forgotform
+{
+	box-sizing: border-box;
+	margin: auto;
+	border: auto;
+	box-shadow: 5px 10px 5px 10px #EDEDED;
+	border-radius: 5px 5px 5px 5px;
+	z-index: 10;
+}
+.recuperar
+{
+	padding: 10px;
+	font-size: 15px;
+}
+.forgotbox
+{
+	box-sizing: content-box;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.correoform
+{
+	box-sizing: content-box;
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+.forgotcorreo
+{
+	font-size: 12px;
+	width: 90%;
+	padding: 10px;
+}
+.forgotbutton
+{
+	text-align: right;
+}
+.cerrarbutton
+{
+	background-color: #EDEDED;
+	border-radius:60px 60px 60px 60px;
+	width: 20%;
+	height: 30px;
+}
+.envbutton
+{
+	border-radius:60px 60px 60px 60px;
+	background-color: #FFC300;
+	color: #FFFFFF;
+	cursor: pointer;
+	width: 20%;
+	height: 30px;
+}
+.rtab
+{
+	box-sizing: content-box;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 150px;
+}
+.registerbox
+{
+	box-sizing: border-box;
+	margin: 50px;
+	border: 20px;
+	padding: 20px;
+	font-size: 16px;
+	background-color: #EDEDED;
+}
+.registerbuttonbox
+{
+	box-sizing: content-box;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.registerbutton
+{
+	border-radius:60px 60px 60px 60px;
+	background-color: #FFC300;
+	color: #FFFFFF;
+	padding: 5px;
+	cursor: pointer;
+}
+.indbutton
+{
+	padding: 50px;
+}
+.main-register-area
+{
+	box-sizing: content-box;
+	padding-bottom: 150px;
+}
+.ListOfEvents
+{
+	box-sizing: content-box;
+	padding: 50px;
+	text-align: center;
+}
+.table
+{
+	font-size: 12px;
+}
+.yellowbanner
+{
+	width: 100%;
+}
+.tableheading
+{
+	background-color: #EDEDED;
+	border-collapse: collapse;
+}
+.details
+{
+	width: 60%;
+	height: 30px;
+}
+.imgblock
+{
+	width: 20%;
+}
+.tabledet
+{
+	text-align: center;
+	width: 12%;
+}
+.tableimgdet
+{
+	width: 50%;
+	padding-left: 20px;
+}
+.confirmarbutton
+{
+	border-radius:60px 60px 60px 60px;
+	background-color: #FFC300;
+	color: #FFFFFF;
+	cursor: pointer;
+	padding: 5px;
+}
+.imgblockuser
+{
+	width: 10%;
+}
+.gracias
+{
+	box-sizing: content-box;
+	padding: 10px;
+	font-size: 12px;
+}
+.contraform
+{
+	padding-left: 160px;
+}
+.correoind
+{
+	font-size: 12px;
+	width: 45%;
+	padding: 5px;
+}
+.regbutton
+{
+	text-align: left;
+}
+.negocio1
+{
+	font-size: 12px;
+}
+.profileinfo
+{
+	font-size: 14px; 
+	padding: 20px 20px 20px 50px;
+}
+.inscrito
+{
+	box-sizing: content-box;
+	padding-right: 30px;
+}
+.profileaddr
+{
+	box-sizing: content-box;
+	padding-left: 80px;
+}
+.profaddress
+{
+	padding: 10px 1px 20px 0px;
+}
+.suite
+{
+	padding-left: 250px;
+}
+.user
+{
+	width: 10%;
+	position: absolute;
+	top: 470px;
+	left: 730px;
+}
+.user2
+{
+	width: 10%;
+	position: absolute;
+	top: 730px;
+	left: 670px;
+}
+.profbox
+{
+	box-sizing: border-box;
+	margin: 50px;
+	border: 20px;
+	padding: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.papellido
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 20px 0px 5px 0px;
+}
+.fotobutton
+{
+	border-radius:60px 60px 60px 60px;
+	background-color: #FFC300;
+	color: #FFFFFF;
+	cursor: pointer;
+	padding: 5px;
+}
+.fotobox
+{
+	box-sizing: content-box;
+	padding-left: 475px;
+}
+.pcorreo
+{
+	width: 80%;
+	font-size: 12px;
+	padding: 7px;
+}
+.ptelefono
+{
+	width: 25%;
+	font-size: 12px;
+	padding: 7px;
+}
+.usuario
+{
+	padding-left: 195px;
+}
+.nota
+{
+	box-sizing: content-box;
+	background-color: #FFC300;
+	width: 5%;
+	font-size: 10px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 60px 60px 60px 60px;
+}
+.solo
+{
+	font-size: 10px;
+	font-weight: normal;
+	padding-top: 5px;
+}
+.guardar
+{
+	text-align: center;
+}
+

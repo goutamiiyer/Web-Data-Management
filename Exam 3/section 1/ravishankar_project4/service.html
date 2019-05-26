@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/pet.css">
+	<title>Service</title>
+	<script type="text/javascript">
+	function validateForm() {
+    var d1 = document.forms["service"]["f_name"].value;
+    var d2 = document.forms["service"]["l_name"].value;
+    var d3 = document.forms["service"]["email"].value;
+    if (d1 == "") {
+        alert("First Name must be filled out");
+        return false;
+    }
+    if (d2 == "") {
+        alert("Last Name must be filled out");
+        return false;
+    }
+    if (d3 == "") {
+        alert("Email must be filled out");
+        return false;
+    }
+}
+	</script>
+</head>
+<body>
+<div id="wrapper">
+<h1>Pet Store</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="aboutus.html">About Us</a>
+<a href="contactus.html">Contact Us</a>
+<a href="client.html">Client</a>
+<a href="service.html">Service</a>
+<a href="login.html">Login</a>
+</nav>
+<div class="column">
+<img src="images/banner1.png">
+<div class="content">
+<h2>Service</h2>
+<h5>Required information is marked with an asterisk (*).</h5>
+<form method="POST" action="php/service.php" name="service" onsubmit="return validateForm()">
+<table>
+	<tr>
+		<td>* First Name: </td>
+		<td><input type="text" name="f_name" required></td>
+	</tr>
+	<tr>
+		<td>* Last Name: </td>
+		<td><input type="text" name="l_name" required></td>
+	</tr>
+	<tr>
+		<td>* E-mail: </td>
+		<td><input type="email" name="email" required></td>
+	</tr>
+	<tr>
+		<td>Phone : </td>
+		<td><input type="phone" name="phone" ></td>
+	</tr>
+	<tr>
+		<td>Business Name : </td>
+		<td><input type="text" name="business"></td>
+	</tr>
+	<tr>
+		<td><input type="submit" name="Submit"></td>
+	</tr>
+</table><br>
+<footer><em>Copyright &copy 2018 Pet Store<br><u><a href="mailto:akshay@waikar.com">dheeraj@ravishankar.com</a></u></em></footer><br>
+</div>
+</div>
+</div>
+</body>
+</html>
